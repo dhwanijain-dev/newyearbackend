@@ -5,7 +5,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 app = Flask(__name__)
 # CORS(app,origins=["https://frontend-j1h26ux4r-dhwani-jains-projects.vercel.app/"]) 
-CORS(app) 
+CORS(app, origins=["https://newyearfrontend.vercel.app"])
+ 
 
 # @app.route('/')
 # def home():
